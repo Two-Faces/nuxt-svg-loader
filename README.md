@@ -15,7 +15,7 @@
 
 * Full support of SVGs as components. Import them like your Vue SFCs
 * Use Vue bindings as you'd do it with normal components
-* Built on top of [svg-to-vue-component](https://github.com/egoist/svg-to-vue-component)
+* Built on top of [svg-to-vue-component](https://github.com/Two-Faces/svg-to-vue-component)
 * Nuxt 2 (and only Nuxt 2) support
 * Fully tested!
 
@@ -92,36 +92,14 @@ The plugin will work seamlessly out of the box.
 It will also include SVGO defaults to avoid collisions between your optimized SVG files!
  
 If you want to configure the underlying loader (or SVGO), you can do that easily as well.
-(All options available [here](https://github.com/egoist/svg-to-vue-component#loader-options))
-
-```js
-// file: nuxt.config.js
-
-export default {
-  // ...
-  // Your loader options as svgLoader object
-  svgLoader: {
-    svgoConfig: {
-      plugins: [
-        { prefixIds: false } // Disables prefixing for SVG IDs
-      ]
-    }
-  }
-}
-```
-
-## Migrating from 0.x
-
-1. Update the deps (of course!)
-2. Rename `svgo` to `svgoConfig`
-3. If you used id prefixing manually before, you can delete the config:
+(All options available [here](https://github.com/Two-Faces/svg-to-vue-component#loader-options))
 
 ```js
 export default {
   svgLoader: {
     svgo: { //Rename to svgoConfig  
       plugins: [
-        { prefixIds: true } // Delete that line (or the whole svgLoader object if you don't have any other configurations)
+        'prefixIds'
       ]
     }
   }
