@@ -3,7 +3,6 @@
 [![npm](https://img.shields.io/npm/dt/nuxt-svg-loader.svg?style=flat-square)](https://npmjs.com/package/two-faces-nuxt-svg-loader)
 [![Build Status](https://travis-ci.com/Two-Faces/nuxt-svg-loader.svg?branch=master)](https://travis-ci.com/Two-Faces/nuxt-svg-loader)
 [![codecov](https://codecov.io/gh/Developmint/nuxt-svg-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/Developmint/nuxt-svg-loader)
-[![Dependencies](https://david-dm.org/Developmint/nuxt-svg-loader/status.svg?style=flat-square)](https://github.com/Two-Faces/nuxt-svg-loader)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
  [![thanks](https://img.shields.io/badge/thanks-%E2%99%A5-ff69b4.svg)](https://thanks.lichter.io/)
 
