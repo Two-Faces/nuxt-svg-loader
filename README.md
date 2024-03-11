@@ -24,13 +24,13 @@ A live demo is available through the [CodeSandBox](https://codesandbox.io/s/gith
 
 ## Setup
 
-- Add `nuxt-svg-loader` as a dependency using yarn or npm to your project
-- Add `nuxt-svg-loader` to `modules` section of `nuxt.config.js`
+- Add `two-faces-nuxt-svg-loader` as a dependency using yarn or npm to your project
+- Add `two-faces-nuxt-svg-loader` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
-    'nuxt-svg-loader',
+    'two-faces-nuxt-svg-loader',
   ]
 }
 ```
